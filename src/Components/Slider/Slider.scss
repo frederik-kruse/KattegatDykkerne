@@ -1,0 +1,43 @@
+@import "../../Variables/variables.scss";
+
+.Slider_text {
+  position: absolute;
+  z-index: 1;
+  color: $White;
+  text-align: center;
+  width: 100%;
+  min-height: 24.80vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #69809cb2;
+
+  .Slider_heading{
+    font-size: 3em;
+  }
+
+  .Slider_VelkommenText{
+    margin: 3vh 0vh;
+    font-size: 1.5em;
+  }
+
+  .Slider_btn {
+    width: 10em;
+    height: 2em;
+    font-size: larger;
+    background-color: #393939;
+    color: $White;
+    cursor: pointer;
+
+    &:hover{
+      background-color: $White;
+      color: $Black;
+    }
+  }
+}
+
+.Slider {
+  position: relative;
+  width: 100%;
+}

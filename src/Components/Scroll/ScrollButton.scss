@@ -1,0 +1,13 @@
+@import "../../Variables/variables.scss";
+
+.ScrollBtnStyling {
+  background: none;
+  color: $White;
+  font-size: 50px;
+  margin-bottom: 1.2vh;
+  cursor: pointer;
+
+  &:hover {
+    color: $Anti-flash-white;
+  }
+}

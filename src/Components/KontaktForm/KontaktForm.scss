@@ -1,0 +1,50 @@
+@import "../../Variables/variables.scss";
+
+.Kontakt_FormPosition {
+  width: 100%;
+  height: auto;
+
+  .Kontakt_FormFlex {
+    width: 50%;
+    height: auto;
+    color: $Sporty-Blue;
+    margin: auto;
+
+    .Kontakt_FormColumns {
+      display: flex;
+      justify-content: center;
+
+      .Kontakt_FormInfo {
+        margin: 2vh;
+      }
+      .Kontakt_FormSendMessage {
+        margin: 2vh;
+
+        .Kontakt_FormMessage {
+          height: 8em;
+        }
+      }
+    }
+
+    .Kontakt_FormHeading {
+      margin: 2vh 0vh;
+    }
+
+    .Kontakt_FormInputFlex {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+}
+
+.Kontakt_FormBtn {
+  width: 25em;
+  height: 3em;
+  margin: 1.5em 0vh;
+  background-color: $Sporty-Blue;
+  color: $White;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  font-weight: bold;
+  cursor: pointer;
+}
