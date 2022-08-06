@@ -1,0 +1,32 @@
+.Kontakt_CardsFlex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  max-width: 70%;
+  height: auto;
+  margin: 10vh auto;
+}
+.Kontakt_CardsFlex .Kontakt_card {
+  width: 20em;
+  height: 26em;
+  margin: 4vh;
+  background-color: #F0F0F0;
+  text-align: center;
+}
+@media screen and (max-width: 430px) {
+  .Kontakt_CardsFlex .Kontakt_card {
+    margin: 2vh auto;
+  }
+}
+.Kontakt_CardsFlex .Kontakt_card .Profilebillde {
+  width: 100%;
+  height: auto;
+}
+.Kontakt_CardsFlex .Kontakt_card .Memberlist_stilling {
+  margin: 0.5vh 0vh;
+}
+.Kontakt_CardsFlex .Kontakt_card .Memberlist_name {
+  font-weight: bold;
+  margin: 1vh 0vh 0vh 0vh;
+}

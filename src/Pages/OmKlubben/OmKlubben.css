@@ -1,0 +1,90 @@
+.OmKlubben_IMGFlex {
+  width: 325em;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.OmKlubben_IMGFlex .OmKlubben_headingIMG {
+  position: absolute;
+  color: #ffff;
+  font-size: 4em;
+  text-align: center;
+}
+.OmKlubben_IMGFlex .OmKlubben_IntroIMG {
+  background-image: linear-gradient(to bottom, #69809ca2, #69809ca2), url("../../IMG/Omklubben/Klubhus.jpg");
+  width: 100%;
+  height: 34em;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  padding: 20px;
+}
+
+.OmKlubben_Intro {
+  display: flex;
+}
+.OmKlubben_Intro .OmKlubben_heading {
+  margin: 2vh 0vh;
+}
+.OmKlubben_Intro .OmKlubben_IntroText {
+  width: 50%;
+  margin: 2vh auto;
+}
+
+.ForbundVedtaagter_position {
+  display: flex;
+  width: 100%;
+  padding: 5vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ForbundVedtaagter_position .Forbund_box {
+  width: 30%;
+}
+.ForbundVedtaagter_position .Forbund_box .Forbund_heading {
+  margin: 2vh 0vh;
+}
+.ForbundVedtaagter_position .Vedtaagter_box {
+  width: 25%;
+}
+.ForbundVedtaagter_position .Vedtaagter_box .Vedtaagter_heading {
+  margin: 2vh 0vh;
+}
+.ForbundVedtaagter_position .Vedtaagter_box .Indmeldelse_PDF {
+  cursor: pointer;
+  color: #002fff;
+}
+.ForbundVedtaagter_position .Vedtaagter_box .Indmeldelse_PDF:visited {
+  color: #5d5dff;
+}
+.ForbundVedtaagter_position .DSFLogo {
+  width: 15em;
+  margin: 0vh 11vh;
+}
+
+.OmKlubben_banner {
+  width: 100%;
+  height: 40vh;
+  background-color: aquamarine;
+  background-image: linear-gradient(to bottom, rgba(33, 128, 196, 0.56), #69809c8a), url("../../IMG/Omklubben/DSC_5265.jpg");
+  background-size: cover;
+  background-position: 100% 55%;
+}
+
+.OmKlubben_heading {
+  text-align: center;
+}
+
+.Klubmateriele_textFlex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 95%;
+  margin: auto;
+}
+.Klubmateriele_textFlex .Klubmateriele_text {
+  width: 80vh;
+  margin: 10vh 18vh;
+}

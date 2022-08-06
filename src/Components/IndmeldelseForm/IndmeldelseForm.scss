@@ -1,0 +1,89 @@
+@import "../../Variables/variables.scss";
+
+.IndmeldelseForm_box {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 2vh 0vh;
+
+  .IndmeldelseForm_CheckboxValuta {
+    width: 20%;
+    margin: 2em;
+    height: auto;
+    color: $Sporty-Blue;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+
+    .Checkbox_Content{
+      display: flex;
+    }
+
+    .TotalPrice{
+      display: flex;
+    }
+
+    .IndmeldelseForm_Medlemstype {
+      margin: 0vh 0vh 2vh 0vh;
+
+      .DropdownList{
+        border: solid 2px $Anti-flash-white;
+        border-radius: 20px;
+        padding: 10px;
+        margin: 0px 2em;
+      }
+    }
+
+    .IndmeldelseForm_checkbox {
+      margin: 2vh 0vh;
+      width: 10em;
+      height: auto;
+
+      .CheckBpx {
+        width: 2em;
+        height: 2em;
+        margin: 0vh;
+      }
+    }
+  }
+  .IndmeldelseForm_TextInfo {
+    width: 20%;
+    height: auto;
+    background-color: $Anti-flash-white;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    .IndmeldelseForm_Textinput {
+      margin: 2vh 0vh;
+    }
+
+    .IndmeldelseForm_Personinfo {
+      display: flex;
+      flex-direction: column;
+      margin: 0vh 5vh;
+    }
+    .IndmeldelseForm_location {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: flex-end;
+      margin: 0vh 5vh;
+
+      .IndmeldelseForm_button {
+        width: 25em;
+        height: 3em;
+        margin: 1.5em 0vh;
+        background-color: $Sporty-Blue;
+        color: $White;
+        -webkit-border-radius: 10px;
+        border-radius: 10px;
+        font-weight: bold;
+        cursor: pointer;
+      }
+    }
+  }
+}

@@ -1,0 +1,24 @@
+.NotFound_banner {
+  width: 100%;
+  height: 39.55em;
+  color: #ffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.315), #69809c8a), url("../../../public/images/Banner1.jpg");
+  background-size: cover;
+  background-position: 60% 100%;
+}
+.NotFound_banner .NotFound_heading {
+  margin-bottom: 5vh;
+  font-size: 2.5em;
+}
+.NotFound_banner .NotFound_Link {
+  font-weight: bold;
+  font-size: larger;
+}
+.NotFound_banner .NotFound_Forside {
+  color: white;
+  text-decoration: underline;
+}

@@ -1,0 +1,77 @@
+.IndmeldelseForm_box {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 2vh 0vh;
+}
+.IndmeldelseForm_box .IndmeldelseForm_CheckboxValuta {
+  width: 20%;
+  margin: 2em;
+  height: auto;
+  color: #69809c;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.IndmeldelseForm_box .IndmeldelseForm_CheckboxValuta .Checkbox_Content {
+  display: flex;
+}
+.IndmeldelseForm_box .IndmeldelseForm_CheckboxValuta .TotalPrice {
+  display: flex;
+}
+.IndmeldelseForm_box .IndmeldelseForm_CheckboxValuta .IndmeldelseForm_Medlemstype {
+  margin: 0vh 0vh 2vh 0vh;
+}
+.IndmeldelseForm_box .IndmeldelseForm_CheckboxValuta .IndmeldelseForm_Medlemstype .DropdownList {
+  border: solid 2px #f0f0f0;
+  border-radius: 20px;
+  padding: 10px;
+  margin: 0px 2em;
+}
+.IndmeldelseForm_box .IndmeldelseForm_CheckboxValuta .IndmeldelseForm_checkbox {
+  margin: 2vh 0vh;
+  width: 10em;
+  height: auto;
+}
+.IndmeldelseForm_box .IndmeldelseForm_CheckboxValuta .IndmeldelseForm_checkbox .CheckBpx {
+  width: 2em;
+  height: 2em;
+  margin: 0vh;
+}
+.IndmeldelseForm_box .IndmeldelseForm_TextInfo {
+  width: 20%;
+  height: auto;
+  background-color: #f0f0f0;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.IndmeldelseForm_box .IndmeldelseForm_TextInfo .IndmeldelseForm_Textinput {
+  margin: 2vh 0vh;
+}
+.IndmeldelseForm_box .IndmeldelseForm_TextInfo .IndmeldelseForm_Personinfo {
+  display: flex;
+  flex-direction: column;
+  margin: 0vh 5vh;
+}
+.IndmeldelseForm_box .IndmeldelseForm_TextInfo .IndmeldelseForm_location {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-end;
+  margin: 0vh 5vh;
+}
+.IndmeldelseForm_box .IndmeldelseForm_TextInfo .IndmeldelseForm_location .IndmeldelseForm_button {
+  width: 25em;
+  height: 3em;
+  margin: 1.5em 0vh;
+  background-color: #69809c;
+  color: #ffff;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  font-weight: bold;
+  cursor: pointer;
+}

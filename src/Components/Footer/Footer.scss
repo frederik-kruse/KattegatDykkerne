@@ -1,0 +1,89 @@
+@import "../../Variables/variables.scss";
+
+.Main_Footer {
+  width: 100%;
+  height: auto;
+  background-color: $Sporty-Blue;
+  color: $White;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: space-between;
+  flex-wrap: nowrap;
+  padding: 5vh 1vh;
+
+  @media screen and (max-width: 1030px) {
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5vh 0vh;
+
+    .Footer_logo {
+      margin: 0vh auto;
+      transform: translateX(41.5%);
+      width: auto;
+      height: auto;
+    }
+  }
+
+  .Footer_LogoCopy {
+    width: 16.5em;
+    height: auto;
+
+    .Footer_copyright_bigscreen {
+      font-size: 1em;
+      display: block;
+
+      @media screen and (max-width: 1030px) {
+        display: none;
+      }
+    }
+  }
+
+  .Footer_copyright_smallscreen{
+    
+    display: none;
+
+    @media screen and (max-width: 1030px) {
+      display: block;
+      margin: 4em 0vh 1em 0vh;
+      font-size: 1em;
+    }
+  }
+  
+
+  .Footer_kontakt {
+    text-align: center;
+    margin: 0% 10%;
+
+    .Footer_Btn_kontakt {
+      background-color: $White;
+      color: $Sporty-Blue;
+      display: block;
+      height: 45px;
+      width: 150px;
+      border-radius: 20px;
+      margin: 2vh auto;
+      font-size: 160%;
+      padding-top: 10px;
+
+      &:hover {
+        color: $Sporty-Blue;
+        background-color: $Anti-flash-white;
+      }
+    }
+  }
+
+  .Footer_TopBtn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 16.5em;
+
+    @media screen and (max-width: 1030px) {
+      display: none;
+    }
+  }
+}

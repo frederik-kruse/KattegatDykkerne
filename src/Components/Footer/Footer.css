@@ -1,0 +1,81 @@
+.Main_Footer {
+  width: 100%;
+  height: auto;
+  background-color: #69809c;
+  color: #ffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: space-between;
+  flex-wrap: nowrap;
+  padding: 5vh 1vh;
+}
+@media screen and (max-width: 1030px) {
+  .Main_Footer {
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5vh 0vh;
+  }
+  .Main_Footer .Footer_logo {
+    margin: 0vh auto;
+    transform: translateX(41.5%);
+    width: auto;
+    height: auto;
+  }
+}
+.Main_Footer .Footer_LogoCopy {
+  width: 16.5em;
+  height: auto;
+}
+.Main_Footer .Footer_LogoCopy .Footer_copyright_bigscreen {
+  font-size: 1em;
+  display: block;
+}
+@media screen and (max-width: 1030px) {
+  .Main_Footer .Footer_LogoCopy .Footer_copyright_bigscreen {
+    display: none;
+  }
+}
+.Main_Footer .Footer_copyright_smallscreen {
+  display: none;
+}
+@media screen and (max-width: 1030px) {
+  .Main_Footer .Footer_copyright_smallscreen {
+    display: block;
+    margin: 4em 0vh 1em 0vh;
+    font-size: 1em;
+  }
+}
+.Main_Footer .Footer_kontakt {
+  text-align: center;
+  margin: 0% 10%;
+}
+.Main_Footer .Footer_kontakt .Footer_Btn_kontakt {
+  background-color: #ffff;
+  color: #69809c;
+  display: block;
+  height: 45px;
+  width: 150px;
+  border-radius: 20px;
+  margin: 2vh auto;
+  font-size: 160%;
+  padding-top: 10px;
+}
+.Main_Footer .Footer_kontakt .Footer_Btn_kontakt:hover {
+  color: #69809c;
+  background-color: #f0f0f0;
+}
+.Main_Footer .Footer_TopBtn {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 16.5em;
+}
+@media screen and (max-width: 1030px) {
+  .Main_Footer .Footer_TopBtn {
+    display: none;
+  }
+}

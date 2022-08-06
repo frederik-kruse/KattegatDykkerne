@@ -1,0 +1,61 @@
+@import "../src/Variables/variables.scss";
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  border: none;
+}
+
+a,
+a:hover,
+a:focus,
+a:active {
+  text-decoration: none;
+  color: inherit;
+}
+.Navlink {
+  text-decoration: none;
+}
+ul {
+  list-style-type: none;
+}
+html {
+  scroll-behavior: smooth; /* Smooth scrolling til forside ved animated Knap */
+}
+
+#root {
+  white-space: pre-line;
+}
+
+.Color_sportyBlue {
+  color: $Sporty-Blue;
+}
+
+p {
+  font-size: 1.2em;
+}
+
+hr {
+  color: $Black;
+  background-color: $Black;
+  height: 4px;
+  border-color: $Black;
+}
+
+img {
+  aspect-ratio: attr(width) / attr(height);
+}
+
+input, textarea {
+  border: solid $Black 0.5px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  resize: none;
+  width: 25em;
+  height: 3em;
+  padding: 0.5em;
+  overflow-y: hidden;
+  margin: 0.3em 0vh;
+}

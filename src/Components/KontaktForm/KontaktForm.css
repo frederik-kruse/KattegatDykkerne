@@ -1,0 +1,42 @@
+.Kontakt_FormPosition {
+  width: 100%;
+  height: auto;
+}
+.Kontakt_FormPosition .Kontakt_FormFlex {
+  width: 50%;
+  height: auto;
+  color: #69809c;
+  margin: auto;
+}
+.Kontakt_FormPosition .Kontakt_FormFlex .Kontakt_FormColumns {
+  display: flex;
+  justify-content: center;
+}
+.Kontakt_FormPosition .Kontakt_FormFlex .Kontakt_FormColumns .Kontakt_FormInfo {
+  margin: 2vh;
+}
+.Kontakt_FormPosition .Kontakt_FormFlex .Kontakt_FormColumns .Kontakt_FormSendMessage {
+  margin: 2vh;
+}
+.Kontakt_FormPosition .Kontakt_FormFlex .Kontakt_FormColumns .Kontakt_FormSendMessage .Kontakt_FormMessage {
+  height: 8em;
+}
+.Kontakt_FormPosition .Kontakt_FormFlex .Kontakt_FormHeading {
+  margin: 2vh 0vh;
+}
+.Kontakt_FormPosition .Kontakt_FormFlex .Kontakt_FormInputFlex {
+  display: flex;
+  flex-direction: column;
+}
+
+.Kontakt_FormBtn {
+  width: 25em;
+  height: 3em;
+  margin: 1.5em 0vh;
+  background-color: #69809c;
+  color: #ffff;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  font-weight: bold;
+  cursor: pointer;
+}

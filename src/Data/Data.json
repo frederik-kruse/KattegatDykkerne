@@ -1,0 +1,182 @@
+{
+  "home": [
+    {
+      "id": 2,
+      "text1": "Kattegat Dykkerne ligger som en vanddråbe ude på Jyllands næsetip, Djursland. Klubbens hjemsted er Grenaa Marina, en lille ø beregnet for fritidssejlere samt andet godtfolk med hang til det maritime liv. \n \n På øen findes alle de fornødenheder sejlere og dykkere gør brug af for at få et vellykket ophold på et sådant sted, her kan bl.a. nævnes: Havnekontor, Spise restauranter, Offentlige toiletter med brusere, luftpåfyldning,",
+      "text2": "Nedkørselsramper til fartøjer og meget meget mere. \n \n For dem af familien der ikke vil dykke, er der legeplads på området. 100 meter til en meget fin sandstrand. \n \n Et stenkast til Kattegat Centret, og skulle det ikke være tilstrækkelige udfoldelser, er der kun 3 km. til centrum af Grenaa by, med alt hvad dette indebærer.",
+      "Logo": "Logo2.webp"
+    }
+  ],
+
+  "homeCards": [
+    {
+      "id": 1,
+      "IMG": "Klubhus.jpg",
+      "heading": "Klubhuset",
+      "Text": "Vores klubhus er placeret på Grenaa Marina helt ned til vandet, den perfekte placering."
+    },
+    {
+      "id": 2,
+      "IMG": "Stranddyk.jpg",
+      "heading": "Stranddyk",
+      "Text": "I sommerperioden er der ugentlige stranddyk ved de omkringliggende kyster. Til dette bor vi jo perfekt"
+    },
+    {
+      "id": 3,
+      "IMG": "Baadtur.jpg",
+      "heading": "Bådture",
+      "Text": "Klubben råder over en lille rib-båd og flere af klubbens medlemmer afholder ture i deres private både."
+    },
+    {
+      "id": 4,
+      "IMG": "uv-jagt.jpg",
+      "heading": "UV-jagt",
+      "Text": "Vi har også en del fridykkere og uv-jægere i klubben der jævntlig deltager i forskellige konkurrencer."
+    },
+    {
+      "id": 5,
+      "IMG": "Uddannelse1.jpg",
+      "heading": "Uddannelse",
+      "Text": "Vi afholder eller deltager årligt i udenlandsture blandt andet til Norge"
+    },
+    {
+      "id": 6,
+      "IMG": "rejser.jpg",
+      "heading": "Udenlandsture",
+      "Text": "Vi afholder eller deltager årligt i udenlandsture blandt andet til Norge"
+    },
+    {
+      "id": 7,
+      "IMG": "Foto.jpg",
+      "heading": "Foto",
+      "Text": "I klubbens medlemmer deltager jævnligt i fotokonkurrencer og arrangementer"
+    },
+    {
+      "id": 8,
+      "IMG": "Svommehal.jpg",
+      "heading": "Svømmehal",
+      "Text": "Klubben har på bestemte tidspunkter fået tildelt haltider i Grenaa Idræts Centers svømmehal."
+    }
+  ],
+
+  "OmKlubben": [
+    {
+      "id": 1,
+      "heading": "Kattegat Dykkerne, Grenaa",
+      "Text_sportsDK": "er en sportsdykkerklub, der blev stiftet den 19 marts 1995. Vi har eget selvbygget klubhus på Grenaa lystbådehavn. Huset er indrettet til at 5-6 personer kan overnatte på hems. Der er i klubhuset plads til at 16-20 personer kan spise. Klubhuset er med ovn, kaffemaskine og service til 18 personer, radio, TV. Klubben indeholder køkken og toilet/bade faciliteter. Lokalerne har en størrelse, der uden problemer kan rumme ca. 16 -18 prs. I forbindelse med sociale arrangementer, og ca. 8-10 stk., når det drejer sig om undervisning. Placeringen er så tæt på vandet som det overhovedet er muligt, faktisk går vandet ind under vores terrasse som ligger helt ud til lystbådehaven.",
+      "ForbundHeading": "Forbundet:",
+      "ForbundText": "Klubben er underlagt Dansk Sportsdykkerforbund, som igen er medlem af CMAS, en verdens- omspændende organisation, ved navn: Confederation Mondiale des Activites Subaquatiques. De har hovedsæde i Frankrig, og som varetager alt undervandssport.",
+      "DSF_IMG": "DSF-sh-1024x983.png",
+      "Vedtaagter_heading": "Vedtægter:",
+      "Vedtaagter_text": "Her kan du hente den nyeste udgave af klubbens vedtægter:",
+      "Banner": "",
+      "Klubmateriele_heading": "Klubmateriele:",
+      "Klubmateriele_text1": "Ud over vores klubhus råder klubben over en gummibåd med trailer, monteret med en 30 hk. motor, samt navigationsudstyr. Den kan rumme fire dykkere med fuldt udstyr og en bådfører. \n \n Kompressoranlæg: Vi råder over en Koltri Sub, med en luftkapacitet på 280 l/min., kompressoren er koblet op på en luft bank, med en kapacitet på 24.000 l. Klubben kan pt. håndtere atmosfærisk luft op til 300 bar. Anlægget er under stadig udbygning.",
+      "Klubmateriele_text2": "Ud over luft er det også muligt at fylde NITROX og TriMix i klubben, hvis man har de fornødene certifikater. \n \n Dykkerudstyr: Klubben råder pt. ikke over ekstra udstyr til udlån, andet det venlige klubmedlemmer stiller til rådighed. Oxy-box Der forefindes oxygen udstyr af den vandtætte udgave."
+    }
+  ],
+  "Indmeldelse": [
+    {
+      "id": 1,
+      "Indmeldelse_heading": "Indmeldelse",
+      "Indmeldelse_text": "Hvis du tror at Kattegat Dykkerne kunne være en klub for dig, er du velkommen til at se forbi klubben en tirsdag til klubaften eller tilmelde dig online herunder. Hvis du skulle have nogle spørgsmål kan du kontakte os via mail eller telefon, som du finder på siden kontakt.",
+      "Kontingent_heading": "Kontingent",
+      "Kontingent_text": "Bassis medlem: 800.- kr årlig \n Studie medlem: 400,- kr årlig. \n Uv-jæger : 400,- kr årlig. \n Junior: 350,- kr årlig. \n Børne/ungdoms 0-10 år 110,- kr årlig.",
+      "Svømmehallen_heading": "Svømmehallen",
+      "Svømmehallen_text": "Sæsonkort: 400,- (Onsdag: 20.00-22.00 \n fredag: 20.00-22.00) \n Sæsonen starter i sep. Og slutter ved \n udgangen af april.",
+      "DSF_heading": "DSF",
+      "DSF_text": "300,- kr årligt.",
+      "Luftpafyldning_heading": "Luftpåfyldning",
+      "Luftpafyldning_text": "400,- kr årlig (Se betingelser for \n medlemskab i vedtægter her) øvrige 40 – \n kr. pr/flaske",
+      "Gummibaad_heading": "Brug af gummibåd",
+      "Gummibaad_text": "20,- Kr. pr/person, dog min 50,- Kr. + brændstof.",
+      "Trykprøvning_heading": "Trykprøvning",
+      "Trykprøvning_text": "350,- kr. pr./flaske, plus fragt.",
+      "Ture_heading": "Ture",
+      "Ture_text": "Klubben arrangerer ofte ture af to til fire \n dages varighed, destinationerne er typisk \n til Norge eller Tyskland (Kreidesee) Priserne \n for disse ligger i størrelsesorden 1.500,- til \n 3.000,- alt inklusiv. \n \n Længerevarende ture til varmere \n himmelstrøg, bookes der ind på \n eksisterende ture, med mindre klubben selv \n kan mønstre et vist antal deltagere til en \n sådan tur. I så fald forhandles der frem til en \n meget fordelagtig pris med udbyder. \n \n Aller priser forudsætter at du er medlem af \n klubben. For mere info se klubbens \n vedtægter:"
+    }
+  ],
+  "Kontakt": [
+    {
+      "id": 1,
+      "Facebook_text": "Det meste af vores kommunikation foregår via vores to facebook grupper. Den ene grupper er for alle, og er typisk der vi slår aktiviteter op. Den anden er lukket og kun til intern brug for klubbens medlemmer. \n \n du finder vores facebook gruppe ved at klikke",
+      "Luftpaafyldning_heading": "Luftpåfyldning",
+      "Luftpaafyldning_text": "Luftfyldning er gratis for klubbens medlemmer men er du ikke medlem, koster det 40 kr. pr. flaske. Vi fylder både 200 og 300 bar. Vi har ingen faste åbningstider men du er velkommen til at kontakte et af vores medlemmer her under og lave en aftale."
+    }
+  ],
+  "Aktiviteter": [
+    {
+      "id": 1,
+      "Aktiviteter_tekst": "Takket være vores medlemmer har klubben et højt aktivitetsniveau. Hele sommeren er der ugentlige strand og bådture og det er næsten altid muligt at finde et par stykker der er med på en spontan dykkertur. \n \n Flere gange om året tager vi på endagsture rundt i landet og dykke forskellige vrag, blandt andet Mariager fjord, Ærå sund færgen, Salling aquapark og mange flere steder. \n \n Det er efter hånden også blevet tradition med en årlig tur til Tyskland og en til Norge hvor vi dykker på forskellige vrag fra anden verdenskrig. \n \n I klubben er også en række meget aktive uv-jægere. I sæsonen er der stort set nogen afsted hver dag og de deltager også aktivt i div. konkurrencer, enten som hold eller enkeltvis.",
+      "Svommehal_heading": "Svømmehal:",
+      "Svommehal_text": "Kattegat Dykkerne har svømmehallen 2 aftner om ugen, til undervisning og vedligeholdelse af uddannelse. \nSvømmehallen ligger ved Grenaa Idrætscenter. \n \n Onsdage 20.00 til 22.00 (her deler vi bassin med Grenaa Svømmeklub) \n \n Fredag 20.00 til 22.00 (her deler vi bassin med Grenaa Svømmeklub) \n \n Svømmesæsonen strækker sig fra september, til og med april",
+      "Svommehal_img": "Svommer-1024x970.jpg",
+      "Provedyk_heading": "Prøvedyk",
+      "Provedyk_text": "Vi kan tilbyde dig et prøvedyk i svømmehallen så du kan opleve at trække vejeret under vand men pas på, det er stærkt vanedannende. \n \n Et prøvedyk koster 150 kr. og foregår onsdag aften mellem 20:00 og 22:00 Det kan aftales nærmere med Henrik Obsen via tlf: 42789605",
+      "BlivDykker_heading": "Bliv dykker",
+      "BlivDykker_text": "For 3200 kr. kan du sammen med Kattegat Dykkerne og Dive Resort Kattegat tage et dykkercertifikat. Kattegat Dykkerne sørge for at du bliver hjulpet godt og sikkert igang med dykning. \n \n Du får: Padi Open Water Diver certifikat, 6 mdr medlemskab af klubben. For yderligere info. Vedr. uddannelsen kontakt Klub Formanden. formanden@kattegatdykkerne.dk",
+      "Padi_logo": "Padi.png",
+      "AndreUddannelser_heading": "Andre uddannelser",
+      "AndreUddannelser_text": "Klubben uddanner dykkere til flere niveauer i samarbejde med Dive Resort Kattegat. Vi kan tilbyde en lang række kurser, her under er listet en del af dem: \n \n – Open Water Diver Adv. \n – Open Water Diver \n – Rescue Diver \n – Dive Master \n – Nitrox & Blender \n – Førstehjælp \n – Speedbådsbevis \n – Special kurser. \n \n For yderligere info. Vedr. uddannelsen, Kontakt Klub Formanden formanden@kattegatdykkerne.dk",
+      "Holdstart_heading": "Holdstart",
+      "Holdstart_text": "Vores faste hold i 2017 starter: \n \n – Open Water Diver: 19. august. \n – Advanced Open Water: 20. Juni. \n – Rescue Diver: september 2017. \n – Basic Nitrox: 2. september. \n \n Vi starter løbende kurser når der er hold til det så der kan være mulighed for andre tidspunkter end overstående. Du kan se mere om kurserne på aktivitetssiden her. \n \n Tilmelding skal ske senest 14 dage før opstart. Mere info eller tilmelding kan ske på hto@djes.dk eller 42789605"
+    }
+  ],
+
+  "Memberlist": [
+    {
+      "id": 1,
+      "profileIMG": "Deafult-profile.png",
+      "stilling": "Formand",
+      "name": "Kristoffer Sørensen",
+      "location": "Skakkesholm 20 \n 8500 Grenaa",
+      "tlf": "Tlf: 21 70 25 40",
+      "email": "formanden@kattegatdykkerne.dk"
+    },
+    {
+      "id": 2,
+      "profileIMG": "Deafult-profile.png",
+      "stilling": "Næstformand",
+      "name": "Ole Riis",
+      "location": "Krattet 324 \n 8500 Grenaa",
+      "tlf": "Tlf: 29 63 38 77",
+      "email": ""
+    },
+    {
+      "id": 3,
+      "profileIMG": "Deafult-profile.png",
+      "stilling": "Sekretær",
+      "name": "Jens Reinholt",
+      "location": "Nørrevangs Alle 10 \n 8410 Rønde",
+      "tlf": "",
+      "email": ""
+    },
+    {
+      "id": 4,
+      "profileIMG": "Deafult-profile.png",
+      "stilling": "Suppleant 1",
+      "name": "Maxime Combastel",
+      "location": "",
+      "tlf": "",
+      "email": ""
+    },
+    {
+      "id": 5,
+      "profileIMG": "Deafult-profile.png",
+      "stilling": "Suppleant 2",
+      "name": "Daniel Meyer",
+      "location": "",
+      "tlf": "",
+      "email": ""
+    },
+    {
+      "id": 6,
+      "profileIMG": "Deafult-profile.png",
+      "stilling": "Bestyrelsesmedlem",
+      "name": "John Doe",
+      "location": "",
+      "tlf": "",
+      "email": ""
+    }
+  ]
+}

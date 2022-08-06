@@ -1,0 +1,20 @@
+.HjemText_main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+  .HomeText_position {
+    display: flex;
+    justify-content: center;
+    padding: 80px;
+
+    .Home_paragraph {
+      margin: 2vh 10vh 0vh 10vh;
+      width: 35%;
+    }
+  }
+  .HjemText_logo{
+    width: 15em;
+  }
+}

@@ -1,0 +1,179 @@
+@import "../../Variables/variables.scss";
+
+.Aktiviteter_begin {
+  width: 100%;
+  height: auto;
+  display: flex;
+  margin: 0vh 0vh 5vh 0vh;
+  @media screen and (max-width: 1399px) {
+    flex-wrap: wrap;
+  }
+
+  .Aktiviteter_tekst {
+    width: 60em;
+    height: 30em;
+    margin: 2vh;
+    padding: 1vh 8em;
+    @media screen and (max-width: 1399px) {
+      width: 75%;
+      height: auto;
+      margin: auto;
+      padding: 2vh 8em;
+    }
+    @media screen and (max-width: 999px) {
+      width: 80em;
+    }
+    @media screen and (max-width: 700px) {
+      width: 100%;
+      padding: 2vh 2em;
+    }
+  }
+
+  .Aktiviteter_IMGFlex {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .Aktiviteter_headingIMG {
+      position: absolute;
+      color: $White;
+      font-size: 4em;
+      text-align: center;
+    }
+
+    .Aktiviteter_IntroIMG {
+      background-image: linear-gradient(to bottom, #69809ca2, #69809ca2),
+        url("../../IMG/Aktiviteter/rejse.jpg");
+      background-position: 20% 100%;
+      width: 100%;
+      height: 40em;
+      margin: 0vh;
+      background-size: cover;
+      background-repeat: no-repeat;
+      color: white;
+    }
+  }
+}
+
+.Aktiviteter_flex {
+  display: flex;
+  justify-content: space-around;
+  width: 80%;
+  height: auto;
+  margin: auto;
+  flex-wrap: nowrap;
+
+  @media screen and (max-width: 1250px) {
+    flex-wrap: wrap;
+  }
+
+  .Svommehal {
+    width: 50%;
+
+    @media screen and (max-width: 1321px) {
+      width: 80%;
+    }
+
+    .Svommehal_heading {
+      margin: 2vh 0vh;
+    }
+  }
+
+  .Dykkertur_img {
+    width: 25em;
+    height: 25em;
+    margin: 0vh 2vh;
+
+    @media screen and (max-width: 1321px) {
+      width: 20em;
+      height: 20em;
+      margin: 2vh 2vh;
+    }
+  }
+
+  .Provedyk {
+    width: 50%;
+
+    @media screen and (max-width: 1321px) {
+      width: 80%;
+    }
+
+    .Provedyk_heading {
+      margin: 2vh 0vh;
+    }
+  }
+}
+
+.Aktiviteter_bannerFlex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .Aktiviteter_bannerText {
+    position: absolute;
+    text-align: center;
+    color: $White;
+    font-size: 4em;
+
+    @media screen and (max-width: 800px) {
+      font-size: 3em;
+    }
+  }
+  .Aktiviteter_banner {
+    background-image: linear-gradient(to bottom, #69809c9f, #69809c6f),
+      url("../../IMG/Aktiviteter/DSC_5065.jpg");
+    background-position: 100% 40%;
+    width: 100%;
+    height: 30em;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    margin: 2vh 0vh;
+
+    @media screen and (max-width: 800px) {
+      height:20em;
+    }
+
+    @media screen and (max-width: 400px) {
+      height:10em;
+    }
+  }
+}
+
+.Aktiviteter_cards_position {
+  width: 100%;
+  height: auto;
+  margin: 2vh 0vh;
+  display: flex;
+  justify-content: center;
+  align-content: space-around;
+  flex-wrap: wrap;
+
+  .Aktiviteter_card {
+    margin: 2vh 3vh;
+    width: 25em;
+    height: auto;
+    border: solid $Black 1px;
+    background-color: $Anti-flash-white;
+    display: flex;
+    flex-direction: column;
+    .Aktiviteter_cardHeading {
+      margin: 1vh;
+    }
+
+    .Aktiviteter_cardText {
+      margin: 1vh 1vh 2vh 1vh;
+    }
+
+    .PadiLogo {
+      width: 90%;
+      margin: 5vh auto 2vh;
+    }
+
+    @media screen and (max-width: 400px) {
+      margin: 2vh 1vh;
+    }
+  }
+}

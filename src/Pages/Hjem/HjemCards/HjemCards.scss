@@ -1,0 +1,31 @@
+@import "../../../Variables/variables.scss";
+
+.HjemCards_flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 80%;
+  height: auto;
+  margin: 10vh auto;
+
+  .Cards_box {
+    width: 20em;
+    height: 24em;
+    margin: 2vh;
+    background-color: $Anti-flash-white;
+    text-align: center;
+
+    .Home_cardsIMG {
+      width: 100%;
+    }
+
+    .homeCards_heading {
+      margin: 2vh;
+    }
+    .homeCards_text {
+      margin: 0vh 2vh;
+      padding-bottom: 4vh;
+    }
+  }
+}

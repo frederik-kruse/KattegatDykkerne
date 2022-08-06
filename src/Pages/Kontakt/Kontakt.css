@@ -1,0 +1,81 @@
+.Kontakt_banner {
+  width: 100%;
+  height: 38vh;
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), #597aa28c), url("../../IMG/Kontakt/DSC_9448_2-4.jpg");
+  background-size: cover;
+  background-position: 100% 47%;
+}
+
+.Kontakt_link {
+  color: #002fff;
+}
+.Kontakt_link:visited {
+  color: #5d5dff;
+}
+
+.Kontakt_ExtraInfo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 62%;
+  height: auto;
+  margin: auto;
+}
+@media screen and (max-width: 1150px) {
+  .Kontakt_ExtraInfo {
+    width: 100%;
+    flex-wrap: wrap;
+  }
+}
+.Kontakt_ExtraInfo .Kontakt_FacebookInfo {
+  width: 50%;
+  margin: 2vh;
+}
+@media screen and (max-width: 600px) {
+  .Kontakt_ExtraInfo .Kontakt_FacebookInfo {
+    width: 100%;
+  }
+}
+.Kontakt_ExtraInfo .Kontakt_FacebookInfo .Kontakt_FacebookLogo {
+  font-size: 5em;
+  margin: 2vh 0vh;
+  color: #69809c;
+}
+.Kontakt_ExtraInfo .Kontakt_LuftpaafyldningInfo {
+  width: 50%;
+  margin: 2vh;
+}
+@media screen and (max-width: 600px) {
+  .Kontakt_ExtraInfo .Kontakt_LuftpaafyldningInfo {
+    width: 100%;
+  }
+}
+.Kontakt_ExtraInfo .Kontakt_LuftpaafyldningInfo .Luftpaafyldning_heading {
+  margin: 2vh 0vh;
+}
+
+.Kontakt_thematicBreakFlex {
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  margin: 2vh auto;
+}
+@media screen and (max-width: 600px) {
+  .Kontakt_thematicBreakFlex {
+    width: 100%;
+  }
+}
+.Kontakt_thematicBreakFlex .Kontakt_thematicBreakFirst {
+  color: #f0f0f0;
+  background-color: #f0f0f0;
+  height: 4px;
+  border-color: #f0f0f0;
+  width: 50%;
+}
+.Kontakt_thematicBreakFlex .Kontakt_thematicBreakSecond {
+  color: #69809c;
+  background-color: #69809c;
+  height: 4px;
+  border-color: #69809c;
+  width: 50%;
+}

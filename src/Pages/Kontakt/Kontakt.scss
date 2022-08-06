@@ -1,0 +1,89 @@
+@import "../../Variables/variables.scss";
+
+.Kontakt_banner {
+  width: 100%;
+  height: 38vh;
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), #597aa28c),
+    url("../../IMG/Kontakt/DSC_9448_2-4.jpg");
+  background-size: cover;
+  background-position: 100% 47%;
+}
+
+.Kontakt_link {
+  color: $Generic-Blue;
+
+  &:visited {
+    color: $Visited-links;
+  }
+}
+
+.Kontakt_ExtraInfo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 62%;
+  height: auto;
+  margin: auto;
+
+  @media screen and (max-width: 1150px) {
+    width: 100%;
+    flex-wrap: wrap;
+  }
+
+  .Kontakt_FacebookInfo {
+    width: 50%;
+    margin: 2vh;
+
+    @media screen and (max-width: 600px) {
+      width: 100%;
+    }
+
+    .Kontakt_FacebookLogo {
+      font-size: 5em;
+      margin: 2vh 0vh;
+      color: $Sporty-Blue;
+    }
+  }
+  .Kontakt_LuftpaafyldningInfo {
+    width: 50%;
+    margin: 2vh;
+
+    @media screen and (max-width: 600px) {
+      width: 100%;
+    }
+
+    .Luftpaafyldning_heading {
+      margin: 2vh 0vh;
+    }
+  }
+}
+
+//Lines around extra info --------
+
+.Kontakt_thematicBreakFlex {
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  margin: 2vh auto;
+
+  @media screen and (max-width: 600px) {
+    width: 100%;
+  }
+
+  .Kontakt_thematicBreakFirst {
+    color: $Anti-flash-white;
+    background-color: $Anti-flash-white;
+    height: 4px;
+    border-color: $Anti-flash-white;
+    width: 50%;
+  }
+  .Kontakt_thematicBreakSecond {
+    color: $Sporty-Blue;
+    background-color: $Sporty-Blue;
+    height: 4px;
+    border-color: $Sporty-Blue;
+    width: 50%;
+  }
+}
+
+//Lines around extra info -------- end
